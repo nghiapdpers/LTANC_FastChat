@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_48px"
+        android:iconTint="@color/white"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/diversity_1_48px"
+        android:iconTint="@color/white"
+        android:title="Friends" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_48px"
+        android:iconTint="@color/white"
+        android:title="Settings" />
+
+</menu>

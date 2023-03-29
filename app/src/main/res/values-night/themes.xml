@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LTANC_FastChat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_500</item>
+        <item name="colorPrimaryVariant">@color/pink_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- surface color use for view group on layout -->
+        <item name="colorSurface">@color/pink_200</item>
+        <item name="colorOnSurfaceVariant">#AF5F5F</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- color for cursor text input -->
+        <item name="android:colorControlActivated">@color/white</item>
+
+        <!-- Secondary brand co1lor. -->
+        <!--<item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>2-->
+
+        <!--background color-->
+        <item name="android:colorBackground">@color/bgColor</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--Change status bar item color
+            true: item is  black
+            false: item is white
+        -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Customize your theme here. -->
+        <!--transparent status bar-->
+    </style>
+</resources>

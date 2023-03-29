@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62136447997",
+    "firebase_url": "https://fastchatdatabase-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fastchatdatabase",
+    "storage_bucket": "fastchatdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62136447997:android:3e0a64628392e1f1fd1f94",
+        "android_client_info": {
+          "package_name": "nghiapd.pers.ltanc_fastchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62136447997-8jr0vgdh6bempuag0kn109lgfbunsjb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA57I5VV--DKIjLiKJMJy01xD248aYzuHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62136447997-8jr0vgdh6bempuag0kn109lgfbunsjb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

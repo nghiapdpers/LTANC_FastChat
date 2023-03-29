@@ -1,0 +1,246 @@
+[debug] [2023-03-28T10:54:33.788Z] ----------------------------------------------------------------------
+[debug] [2023-03-28T10:54:33.791Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nghia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-28T10:54:33.792Z] CLI Version:   11.25.1
+[debug] [2023-03-28T10:54:33.792Z] Platform:      win32
+[debug] [2023-03-28T10:54:33.792Z] Node Version:  v16.17.0
+[debug] [2023-03-28T10:54:33.793Z] Time:          Tue Mar 28 2023 17:54:33 GMT+0700 (Indochina Time)
+[debug] [2023-03-28T10:54:33.794Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-28T10:54:33.910Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-28T10:54:33.911Z] > authorizing via signed-in user (trantuyetclone@gmail.com)
+[debug] [2023-03-28T10:54:34.038Z] java version "19.0.1" 2022-10-18
+
+[debug] [2023-03-28T10:54:34.039Z] Java(TM) SE Runtime Environment (build 19.0.1+10-21)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+[debug] [2023-03-28T10:54:34.062Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore, database {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, database"}}
+[debug] [2023-03-28T10:54:34.080Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.081Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.081Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.081Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.081Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.082Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-28T10:54:34.093Z] [hub] writing locator at C:\Users\Nghia\AppData\Local\Temp\hub-fastchatdatabase.json
+[debug] [2023-03-28T10:54:34.107Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.108Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T10:54:34.108Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mhosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-28T10:54:34.114Z] defaultcredentials: writing to file C:\Users\Nghia\AppData\Roaming\firebase\trantuyetclone_gmail_com_application_default_credentials.json
+[debug] [2023-03-28T10:54:34.118Z] Setting GAC to C:\Users\Nghia\AppData\Roaming\firebase\trantuyetclone_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Nghia\\AppData\\Roaming\\firebase\\trantuyetclone_gmail_com_application_default_credentials.json"}}
+[debug] [2023-03-28T10:54:34.120Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase/adminSdkConfig [none]
+[debug] [2023-03-28T10:54:34.599Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase/adminSdkConfig 200
+[debug] [2023-03-28T10:54:34.599Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase/adminSdkConfig {"projectId":"fastchatdatabase","databaseURL":"https://fastchatdatabase-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fastchatdatabase.appspot.com"}
+[debug] [2023-03-28T10:54:34.627Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-28T10:54:34.627Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2023-03-28T10:54:34.628Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Nghia\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.16.0.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","fastchatdatabase","--rules","D:\\Android\\Android Project\\LTANC\\LTANC_FastChat\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Nghia\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.16.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"fastchatdatabase\",\"--rules\",\"D:\\\\Android\\\\Android Project\\\\LTANC\\\\LTANC_FastChat\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2023-03-28T10:54:36.194Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase [none]
+[debug] [2023-03-28T10:54:36.927Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase 200
+[debug] [2023-03-28T10:54:36.927Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase {"projectId":"fastchatdatabase","projectNumber":"62136447997","displayName":"fastchatDatabase","name":"projects/fastchatdatabase","resources":{"hostingSite":"fastchatdatabase","realtimeDatabaseInstance":"fastchatdatabase-default-rtdb"},"state":"ACTIVE","etag":"1_7a871a36-6085-4130-a21d-921c67b779c1"}
+[debug] [2023-03-28T10:54:36.928Z] database rules config:  [{"instance":"fastchatdatabase-default-rtdb","rules":"D:\\Android\\Android Project\\LTANC\\LTANC_FastChat\\database.rules.json"}]
+[debug] [2023-03-28T10:54:36.932Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2023-03-28T10:54:36.932Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-28T10:54:36.932Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2023-03-28T10:54:36.932Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\Nghia\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.0.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Nghia\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2023-03-28T10:54:47.991Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-28T10:54:47.992Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-28T10:54:47.992Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Nghia\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Nghia\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-28T10:54:48.156Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-03-28T10:54:48.157Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\Android\Android Project\LTANC\LTANC_FastChat\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Android\\Android Project\\LTANC\\LTANC_FastChat\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-28T10:54:48.275Z] Validating nodejs source
+[debug] [2023-03-28T10:54:50.017Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-28T10:54:50.017Z] Building nodejs source
+[debug] [2023-03-28T10:54:50.017Z] Failed to find version of module node: reached end of search path D:\Android\Android Project\LTANC\LTANC_FastChat\functions\node_modules
+[info] +  functions: Using node@16 from host. 
+[debug] [2023-03-28T10:54:50.021Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-28T10:54:50.033Z] Found firebase-functions binary at 'D:\Android\Android Project\LTANC\LTANC_FastChat\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-28T10:54:50.335Z] Serving at port 8516
+
+[debug] [2023-03-28T10:54:50.667Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-28T10:54:50.674Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[debug] [2023-03-28T10:54:50.687Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=fastchatdatabase-default-rtdb
+[debug] [2023-03-28T10:54:50.687Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  \"rules\": {\n    \".read\": false,\n    \".write\": false\n  }\n}"
+[debug] [2023-03-28T10:54:51.105Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2023-03-28T10:54:51.106Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database  │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-03-28T16:31:11.934Z] ----------------------------------------------------------------------
+[debug] [2023-03-28T16:31:11.936Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nghia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-28T16:31:11.937Z] CLI Version:   11.25.1
+[debug] [2023-03-28T16:31:11.937Z] Platform:      win32
+[debug] [2023-03-28T16:31:11.937Z] Node Version:  v16.17.0
+[debug] [2023-03-28T16:31:11.939Z] Time:          Tue Mar 28 2023 23:31:11 GMT+0700 (Indochina Time)
+[debug] [2023-03-28T16:31:11.939Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-28T16:31:12.086Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-28T16:31:12.086Z] > authorizing via signed-in user (trantuyetclone@gmail.com)
+[debug] [2023-03-28T16:31:13.446Z] java version "19.0.1" 2022-10-18
+
+[debug] [2023-03-28T16:31:13.447Z] Java(TM) SE Runtime Environment (build 19.0.1+10-21)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+[debug] [2023-03-28T16:31:13.484Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore, database {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, database"}}
+[debug] [2023-03-28T16:31:13.504Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.505Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.505Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.505Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.505Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.506Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project fastchatdatabase. This may result in unexpected behavior. 
+[debug] [2023-03-28T16:31:13.519Z] [hub] writing locator at C:\Users\Nghia\AppData\Local\Temp\hub-fastchatdatabase.json
+[debug] [2023-03-28T16:31:13.532Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.533Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-28T16:31:13.533Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mhosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-28T16:31:13.539Z] defaultcredentials: writing to file C:\Users\Nghia\AppData\Roaming\firebase\trantuyetclone_gmail_com_application_default_credentials.json
+[debug] [2023-03-28T16:31:13.542Z] Setting GAC to C:\Users\Nghia\AppData\Roaming\firebase\trantuyetclone_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Nghia\\AppData\\Roaming\\firebase\\trantuyetclone_gmail_com_application_default_credentials.json"}}
+[debug] [2023-03-28T16:31:13.543Z] > refreshing access token with scopes: []
+[debug] [2023-03-28T16:31:13.546Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-28T16:31:13.546Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-28T16:31:13.824Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-28T16:31:13.824Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-28T16:31:13.837Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase/adminSdkConfig [none]
+[debug] [2023-03-28T16:31:14.379Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase/adminSdkConfig 200
+[debug] [2023-03-28T16:31:14.379Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase/adminSdkConfig {"projectId":"fastchatdatabase","databaseURL":"https://fastchatdatabase-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fastchatdatabase.appspot.com"}
+[debug] [2023-03-28T16:31:14.407Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-28T16:31:14.407Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2023-03-28T16:31:14.408Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Nghia\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.16.0.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","fastchatdatabase","--rules","D:\\Android\\Android Project\\LTANC\\LTANC_FastChat\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Nghia\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.16.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"fastchatdatabase\",\"--rules\",\"D:\\\\Android\\\\Android Project\\\\LTANC\\\\LTANC_FastChat\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2023-03-28T16:31:28.972Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase [none]
+[debug] [2023-03-28T16:31:29.435Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase 200
+[debug] [2023-03-28T16:31:29.435Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fastchatdatabase {"projectId":"fastchatdatabase","projectNumber":"62136447997","displayName":"fastchatDatabase","name":"projects/fastchatdatabase","resources":{"hostingSite":"fastchatdatabase","realtimeDatabaseInstance":"fastchatdatabase-default-rtdb"},"state":"ACTIVE","etag":"1_7a871a36-6085-4130-a21d-921c67b779c1"}
+[debug] [2023-03-28T16:31:29.435Z] database rules config:  [{"instance":"fastchatdatabase-default-rtdb","rules":"D:\\Android\\Android Project\\LTANC\\LTANC_FastChat\\database.rules.json"}]
+[debug] [2023-03-28T16:31:29.442Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2023-03-28T16:31:29.442Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-28T16:31:29.442Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2023-03-28T16:31:29.442Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\Nghia\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.0.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Nghia\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2023-03-28T16:31:45.035Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-28T16:31:45.036Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-28T16:31:45.036Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Nghia\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Nghia\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-28T16:31:45.227Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-03-28T16:31:45.228Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\Android\Android Project\LTANC\LTANC_FastChat\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Android\\Android Project\\LTANC\\LTANC_FastChat\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-28T16:31:45.333Z] Validating nodejs source
+[debug] [2023-03-28T16:31:48.939Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-28T16:31:48.939Z] Building nodejs source
+[debug] [2023-03-28T16:31:48.940Z] Failed to find version of module node: reached end of search path D:\Android\Android Project\LTANC\LTANC_FastChat\functions\node_modules
+[info] +  functions: Using node@16 from host. 
+[debug] [2023-03-28T16:31:48.943Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-28T16:31:48.955Z] Found firebase-functions binary at 'D:\Android\Android Project\LTANC\LTANC_FastChat\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-28T16:31:51.020Z] Serving at port 8743
+
+[debug] [2023-03-28T16:31:54.307Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-28T16:31:54.315Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[debug] [2023-03-28T16:31:54.333Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=fastchatdatabase-default-rtdb
+[debug] [2023-03-28T16:31:54.333Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  \"rules\": {\n    \".read\": false,\n    \".write\": false\n  }\n}"
+[debug] [2023-03-28T16:31:54.910Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2023-03-28T16:31:54.910Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database  │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

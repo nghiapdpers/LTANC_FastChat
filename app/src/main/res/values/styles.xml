@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyFilledTextFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TextAppearance.ToolbarTheme" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/lobster</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+</resources>

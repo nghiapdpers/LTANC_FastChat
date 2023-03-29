@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LTANC_FastChat</string>
+    <string name="author">Author: pdnghia</string>
+    <string name="otp_fill">Điền mã OTP được gửi đến số điện thoại của bạn</string>
+    <string name="otp_resend">*Nếu không nhận được mã, vui lòng ấn Resend sau 60s</string>
+    <string name="otp_incorrect">Mã OTP không đúng</string>
+    <string name="phone_error_10_nums">Số điện thoại phải đủ từ 10 ký tự</string>
+    <string name="phone_error_num_invalid">Số điện thoại không hợp lệ, chỉ khả dụng tại Việt Nam</string>
+    <string name="phone_error_exist">Tài khoản đã tồn tại</string>
+    <string name="phone_invalid_search">Số điện thoại không hợp lệ</string>
+    <string name="phone_is_not_exist">Tài khoản không tồn tại</string>
+    <string name="password_error_invalid">Mật khẩu phải đủ từ 6 ký tự</string>
+    <string name="password_error_incorrect">Sai mật khẩu</string>
+    <string name="cf_password_error_incorrect">Xác nhận mật khẩu không hợp lệ</string>
+    <string name="first_name_is_empty">Tên không được để trống</string>
+    <string name="last_name_is_empty">Họ không được để trống</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="inchat_hintMessage">Nhập tin nhắn</string>
+</resources>
